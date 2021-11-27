@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.projectBorder{
+    transition: transform .2s;
+    height: 190px !important;
+    width: 100% !important;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 350px;
+    background-color: rgb(34, 34, 34);
+    position: relative;
+    transition: all .1s ease-in-out;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.projectBorder:hover {
+    transform: scale(1.05);
+}
+
+.projectImg{
+    position: absolute;
+    left:0;
+    top:0;
+    object-fit: scale-down;
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    max-height: 128px;
+    max-width: 128px;
+    border-radius: 10px;
+}
+
+.projectBtn{
+    cursor: pointer;
+    width: 305px;
+    background-color: rgb(50,50,50);
+    border-radius: 10px;
+    margin: 10px;
+    bottom: 0px;
+    font-size: 12px;
+    padding: 5px 12px;
+    color: #fff;
+    position: absolute;
+}
