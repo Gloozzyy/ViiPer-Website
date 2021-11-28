@@ -16,3 +16,12 @@ function boxmixcopyIP() {
         console.error('Async: Could not copy text: ', err);
     });
 }
+function fgcopyIP() {
+    var ip = "FGSkyMine.minehut.gg";
+    navigator.clipboard.writeText(ip).then(function () {
+        alert("Copied the IP: FGSkyMine.minehut.gg");
+        console.log('Async: Copying to clipboard was successful!');
+    }, function (err) {
+        console.error('Async: Could not copy text: ', err);
+    });
+}

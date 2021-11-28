@@ -312,6 +312,7 @@ center{
     margin-left: -20%;
     margin-top: 0%;
     display: flex;
+    cursor: pointer;
 }
 
 #text2{
